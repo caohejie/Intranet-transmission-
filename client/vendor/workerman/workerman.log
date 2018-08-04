@@ -1,0 +1,33 @@
+2018-08-03 19:16:50 pid:12413 Workerman[start.php] start in DEBUG mode
+2018-08-03 19:20:29 pid:12413 Workerman[start.php] stopping ...
+2018-08-03 19:20:29 pid:12413 Workerman[start.php] has been stopped
+2018-08-03 19:20:30 pid:17540 Workerman[start.php] start in DEBUG mode
+2018-08-03 19:21:20 pid:17540 Workerman[start.php] stopping ...
+2018-08-03 19:21:20 pid:17540 Workerman[start.php] has been stopped
+2018-08-03 19:21:22 pid:18722 Workerman[start.php] start in DEBUG mode
+2018-08-03 19:23:20 pid:18722 Workerman[start.php] stopping ...
+2018-08-03 19:23:20 pid:18722 Workerman[start.php] has been stopped
+2018-08-03 19:38:32 pid:10049 Workerman[start.php] start in DEBUG mode
+2018-08-03 19:39:01 pid:10049 Workerman[start.php] stopping ...
+2018-08-03 19:39:01 pid:10049 Workerman[start.php] has been stopped
+2018-08-03 19:39:25 pid:11287 Workerman[start.php] start in DEBUG mode
+2018-08-03 22:19:06 pid:4031 Workerman[start.php] start in DEBUG mode
+2018-08-03 22:22:53 pid:4031 Workerman[start.php] stopping ...
+2018-08-03 22:22:53 pid:4031 Workerman[start.php] has been stopped
+2018-08-03 22:22:58 pid:4063 Workerman[start.php] start in DEBUG mode
+2018-08-03 22:23:05 pid:4069 Worker[4069] process terminated with ERROR: E_ERROR "Class 'AsyncTcpConnection' not found in /data/chuantou/GatewayWorker/Applications/YourApp/Events.php on line 54"
+2018-08-03 22:23:05 pid:4063 worker[YourAppBusinessWorker:4069] exit with status 65280
+2018-08-03 22:24:34 pid:4063 Workerman[start.php] stopping ...
+2018-08-03 22:24:34 pid:4063 Workerman[start.php] has been stopped
+2018-08-03 22:24:36 pid:4092 Workerman[start.php] start in DEBUG mode
+2018-08-03 22:24:40 pid:4095 Worker[4095] process terminated with ERROR: E_ERROR "Class 'Workerman\AsyncTcpConnection' not found in /data/chuantou/GatewayWorker/Applications/YourApp/Events.php on line 55"
+2018-08-03 22:24:40 pid:4092 worker[YourAppBusinessWorker:4095] exit with status 65280
+2018-08-03 22:25:20 pid:4092 Workerman[start.php] stopping ...
+2018-08-03 22:25:20 pid:4092 Workerman[start.php] has been stopped
+2018-08-03 22:25:21 pid:4109 Workerman[start.php] start in DEBUG mode
+2018-08-03 22:26:52 pid:4109 Workerman[start.php] stopping ...
+2018-08-03 22:26:52 pid:4109 Workerman[start.php] has been stopped
+2018-08-03 22:26:53 pid:4129 Workerman[start.php] start in DEBUG mode
+2018-08-03 22:27:02 pid:4129 Workerman[start.php] stopping ...
+2018-08-03 22:27:02 pid:4129 Workerman[start.php] has been stopped
+2018-08-03 22:30:36 pid:4173 Workerman[start.php] start in DEBUG mode
