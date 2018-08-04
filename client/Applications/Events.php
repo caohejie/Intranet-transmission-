@@ -50,9 +50,9 @@ class Events
        {
            $connection->send($message);
        };
-       $connection->onMessage = function($connection, $http_buffer)use($client_id)
+       $connection->onMessage = function($connection, $buffer)use($client_id)
        {
-           Gateway::sendToClient($client_id,$http_buffer);
+           Gateway::sendToClient($client_id,$buffer);
        };
        $connection->onClose = function($connection_to_baidu)
        {
@@ -60,7 +60,7 @@ class Events
        };
        $connection->onError = function($connection, $code, $msg)
        {
-           echo "Error code:$code msg:$msg\n";
+
        };
        $connection->connect();
 
@@ -72,8 +72,7 @@ class Events
     */
    public static function onClose($client_id)
    {
-       // 向所有人发送 
-       GateWay::sendToAll("$client_id logout\r\n");
+
    }
 
     public static function getallheaders($message)
